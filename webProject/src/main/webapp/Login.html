@@ -3,13 +3,19 @@
 	<head>
 		<meta charset="EUC-KR">
 		<title>Insert title here</title>
+		<!-- css자리 -->
+		<link href="Login.css" rel="stylesheet" type="text/css">
 	</head>
 	<body>
+		<div>
+			<form id="from_login" action="index.html" method="get">
+				<label>ID</label> <input id="id" type="text" placeholder="ID"><br>
+				<label>PW</label> <input id="pw" type="password" placeholder="PW"><br>
+				<input id="btn_login" type="button" value="로그인" onclick="mode()">
+			</form>
+		</div>
 		
-		<lable>ID</lable> <input type="text" placeholder="ID"><br>
-		<lable>PW</lable> <input type="password" placeholder="PW"><br>
-		<input type="button" value="로그인" onclick="">
-		
-		
+		<!-- script위치 -->
+		<script type="text/javascript" src="LoginMode.js" charset="UTF-8"></script>
 	</body>
 </html>

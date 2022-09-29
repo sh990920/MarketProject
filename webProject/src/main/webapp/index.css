@@ -1,2 +1,22 @@
 @charset "EUC-KR";
-h2{display:inline;}
+body{
+	margin: 0px;
+	padding: 0px;
+}
+div{
+	margin: 20px;
+}
+
+h2{
+	display:inline;
+	margin: 20px 0px;
+}
+
+input{
+	float: right;
+	margin: 5px;
+}
+	
+a{
+	margin:10px;	
+}

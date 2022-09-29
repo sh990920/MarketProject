@@ -3,12 +3,37 @@
 	<head>
 		<meta charset="EUC-KR">
 		<title>Insert title here</title>
+		<!-- css자리 -->
+		<link href="Borad.css" rel="stylesheet" type="text/css">
 	</head>
 	<body>
+		<div>
+			<form action="index.html" method="get">
+				<ul>
+					<li>
+						<label>카테고리 : </label>
+						<select>
+							<option value="1">배송</option>
+							<option value="1">주문</option>
+						</select>
+					</li>
+					<li> <label>제목 : </label> <input type="text"> </li>
+					<li> <label>작성자 : </label> <input type="text"> </li>
+					<li> <label>날짜 : </label> <input type="date"> </li>
+					<li> 
+						<!-- 내용 창을 늘려도 안늘어나게 해보자 -->
+						<label>내용</label>
+						<textarea name=”content” cols=”30” rows=”5”></textarea>
+					</li>
+				</ul>
+				<input type="submit" value="등록">
+				<input type="button" value="취소" onclick="mode()">
+			</form>
+			
+		</div>
 		
 		
-		
-		
-		
+		<!-- script위치 -->
+		<script type="text/javascript" src="BoardMode.js" charset="UTF-8"></script>
 	</body>
 </html>

@@ -1,0 +1,17 @@
+@charset "EUC-KR";
+ul{
+	margin: 0px;
+	padding: 0px;
+	list-style:none;
+}
+div{
+	padding: 20px;
+	width: 300;
+	heigth: 100;
+	border: 1px solid black;
+	position:absolute;
+    left:50%;
+    top:50%;
+    margin-left: -150px;
+    margin-top: -100px;
+}

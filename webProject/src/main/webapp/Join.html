@@ -5,7 +5,7 @@
 		<title>Insert title here</title>
 	</head>
 	<body>
-		<form>
+		<form action="Welcome.html" method="get">
 			<ul>
 				<li> <label>ID</label> <input type="text"> </li>
 				<li> <label>PW</label> <input type="text"> </li>
@@ -17,19 +17,19 @@
 				<li> <label>연락처</label> <input type="text"> </li>
 				<li>
 					<label>스타일(중복 체크가 가능합니다.)</label> <br>
-					<input type="checkbox" name="styleType" vlaue="casual"> <label>일상복</label>
-					<input type="checkbox" name="styleType" vlaue="officeLook"> <label>회사룩</label>
-					<input type="checkbox" name="styleType" vlaue="petticoat"> <label>아동복</label>
-					<input type="checkbox" name="styleType" vlaue="Sportswear"> <label>운동복</label>
+					<input type="checkbox" name="styleType" value="casual"> <label>일상복</label>
+					<input type="checkbox" name="styleType" value="officeLook"> <label>회사룩</label>
+					<input type="checkbox" name="styleType" value="petticoat"> <label>아동복</label>
+					<input type="checkbox" name="styleType" value="Sportswear"> <label>운동복</label>
 				</li>
 			</ul>
-			<input id="btn_mode" type="button" value="회원가입" onclick="mode()">
+			<input id="btn_mode" type="submit" value="회원가입" >
 		</form>
 		
 		
 		
-		
-		<script type="text/javascript" src="joinMode.js" charset="UTF-8"></script>
+		<!-- script위치 -->
+		<script type="text/javascript" src="join.js" charset="UTF-8"></script>
 		
 	</body>
 </html>

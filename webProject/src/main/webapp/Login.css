@@ -1,0 +1,16 @@
+@charset "EUC-KR";
+body{
+	margin: 0px;
+	padding: 0px;
+}
+div{
+	padding: 20px;
+	width: 220px;
+	height: 90px;
+	border: 1px solid #00f;
+	position:absolute;
+    left:50%;
+    top:50%;
+    margin-left:-110px;
+    margin-top:-66px;
+}
