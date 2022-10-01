@@ -1,14 +1,14 @@
 //다크모드인지 데이모드인지 확인 변수
-var check = true;
+const check = true;
 //버튼 변수
-var btn_mode = document.getElementById("btn_mode");
+const btn_mode = document.getElementById("btn_mode");
 //a태그 변수(querySelectorAll로 적용이 안됨)
-var a_tag1 = document.getElementById("a_tag1");
-var a_tag2 = document.getElementById("a_tag2");
-var a_tag3 = document.getElementById("a_tag3");
+const a_tag1 = document.getElementById("a_tag1");
+const a_tag2 = document.getElementById("a_tag2");
+const a_tag3 = document.getElementById("a_tag3");
 //h2태그 변수(querySelectorAll로 적용이 안됨)
-var tx_h2_1 = document.getElementById("tx_h2_1");
-var tx_h2_2 = document.getElementById("tx_h2_2");
+const tx_h2_1 = document.getElementById("tx_h2_1");
+const tx_h2_2 = document.getElementById("tx_h2_2");
 //처음 css설정
 btn_mode.value = "다크모드로 보기";
 btn_mode.style.color = "white";

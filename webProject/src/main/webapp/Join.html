@@ -3,12 +3,15 @@
 	<head>
 		<meta charset="EUC-KR">
 		<title>Insert title here</title>
+		<!-- css자리 -->
+		<link href="join.css" rel="stylesheet" type="text/css">
 	</head>
 	<body>
-		<form action="Welcome.html" method="get">
+		<form id="form_id" action="Welcome.html" method="get">
 			<ul>
-				<li> <label>ID</label> <input type="text"> </li>
-				<li> <label>PW</label> <input type="text"> </li>
+				<li> <label>ID</label> <input id="tx_id" type="text">
+					 <input id="btn_equals" type="button" value="중복확인"> </li>
+				<li> <label>PW</label> <input type="password"> </li>
 				<li> <label>이름</label> <input type="text"> </li>
 				<li> <label>성별</label> 
 					 <input type="radio" name="check_gender" value="man"> <label>남</label>
@@ -23,7 +26,7 @@
 					<input type="checkbox" name="styleType" value="Sportswear"> <label>운동복</label>
 				</li>
 			</ul>
-			<input id="btn_mode" type="submit" value="회원가입" >
+			<input id="btn_join" type="button" value="회원가입" >
 		</form>
 		
 		

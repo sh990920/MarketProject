@@ -1,4 +1,4 @@
-var linkPath = "index.html";
+const linkPath = "index.html";
 
 function mode(){
 	location.href=linkPath;

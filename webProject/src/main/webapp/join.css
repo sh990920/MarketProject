@@ -1,0 +1,10 @@
+@charset "EUC-KR";
+ul{
+	margin: 0px;
+	padding: 0px;
+	list-style:none;
+}
+form{
+	padding: 30px;
+	margin: 30px;
+}
