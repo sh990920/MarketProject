@@ -1,5 +1,5 @@
 //다크모드인지 데이모드인지 확인 변수
-const check = true;
+let check = true;
 //버튼 변수
 const btn_mode = document.getElementById("btn_mode");
 //a태그 변수(querySelectorAll로 적용이 안됨)
@@ -40,3 +40,4 @@ function mode() {
 		check = true;
 	}
 }
+btn_mode.addEventListener("click", mode);
