@@ -2,29 +2,29 @@
 <html>
 	<head>
 		<meta charset="EUC-KR">
-		<title>Insert title here</title>
+		<title>Join</title>
 		<!-- css자리 -->
 		<link href="join.css" rel="stylesheet" type="text/css">
 	</head>
 	<body>
 		<form id="form_id" action="Welcome.html" method="get">
 			<ul>
-				<li> <label>ID</label> <input id="tx_id" type="text">
+				<li> <label>ID</label> <input id="tx_id" name="id" type="text">
 					 <input id="btn_equals" type="button" value="중복확인"> </li>
-				<li> <label>PW</label> <input type="password"> </li>
-				<li> <label>이름</label> <input type="text"> </li>
+				<li> <label>PW</label> <input name="pw" type="password"> </li>
+				<li> <label>이름</label> <input name="name" type="text"> </li>
 				<li> <label>성별</label> 
-					 <input type="radio" name="check_gender" value="man"> <label>남</label>
-					 <input type="radio" name="check_gender" value="woman"> <label>여</label>
+					 <input type="radio" name="sex" value="man"> <label>남</label>
+					 <input type="radio" name="sex" value="woman"> <label>여</label>
 				</li>
-				<li> <label>연락처</label> <input type="text"> </li>
+				<li> <label>연락처</label> <input name="number" type="text"> </li>
 				<li>
 					<label>스타일(중복 체크가 가능합니다.)</label> <br>
 					<input type="checkbox" name="styleType" value="casual"> <label>일상복</label>
 					<input type="checkbox" name="styleType" value="officeLook"> <label>회사룩</label>
 					<input type="checkbox" name="styleType" value="petticoat"> <label>아동복</label>
 					<input type="checkbox" name="styleType" value="Sportswear"> <label>운동복</label>
-				</li>
+				</li> 
 			</ul>
 			<input id="btn_join" type="button" value="회원가입" >
 		</form>

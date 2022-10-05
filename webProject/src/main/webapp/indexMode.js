@@ -15,7 +15,6 @@ btn_mode.style.color = "white";
 btn_mode.style.backgroundColor = "black";
 //버튼이 눌렸을 때 실행할 메서드
 function mode() {
-	
 	if (check == true) { //다크모드
 		document.body.style.backgroundColor = 'black';
 		tx_h2_1.style.color = "white";
@@ -40,4 +39,5 @@ function mode() {
 		check = true;
 	}
 }
+//다크모드버튼이 눌렸을떄
 btn_mode.addEventListener("click", mode);

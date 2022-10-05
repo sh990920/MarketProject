@@ -10,8 +10,12 @@ const tx_id = document.getElementById("tx_id");
 let equals = false;
 //id비교 메서드
 function equalsId(){
-	if(id == tx_id.value || tx_id.value == ""){
-		alert("다시 입력해주세요.");
+	if(tx_id.value == id){
+		alert("이미 사용중인 아이디 입니다.");
+		tx_id.value = "";
+		equals = false;
+	}else if(tx_id.value == ""){
+		alert("사용할 아이디를 입력하세요.")
 		tx_id.value = "";
 		equals = false;
 	}else{
